@@ -1,0 +1,63 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier . --check",
+    "lintfix": "eslint . --fix && prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@firebase/app-types": "^0.9.2",
+    "@hebilicious/vue-query-nuxt": "^0.3.0",
+    "@iconify/vue": "^4.1.2",
+    "@nuxt/icon": "latest",
+    "@nuxt/image": "latest",
+    "@nuxthub/core": "latest",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/google-fonts": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tanstack/vue-query": "^5.59.17",
+    "@tanstack/vue-query-devtools": "^5.59.19",
+    "@tanstack/vue-table": "^8.20.5",
+    "@vueuse/core": "^11.0.3",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^5.1.1",
+    "lucide-vue-next": "^0.454.0",
+    "nuxt": "^3.14.0",
+    "nuxt-vuefire": "latest",
+    "radix-vue": "^1.9.8",
+    "shadcn-nuxt": "^0.11.2",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "uninstall": "^0.0.0",
+    "vue": "^3.5.12",
+    "vuefire": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/radix-icons": "^1.2.0",
+    "@nuxt/eslint": "^0.5.7",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "wrangler": "^3.73.0"
+  },
+  "overrides": {
+    "@supabase/gotrue-js": "2.16.0",
+    "axios": "^1.7.7"
+  }
+}

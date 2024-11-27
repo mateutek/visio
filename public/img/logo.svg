@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1086 1086" width="1086" height="1086">
+
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #fcf8ec }
+		.s1 { fill: #3d404f }
+		.s2 { fill: #241b2c }
+		.s3 { fill: #ec7f46 }
+		.s4 { fill: #393f4d }
+		.s5 { fill: #251c2f }
+		.t6 { font-size: 485px;fill: #fdfae7;font-weight: 500;font-family: "Roboto-Medium", "Roboto" }
+	</style>
+	<path id="Ellipse 1" class="s0" d="m543 0c299.9 0 543 243.1 543 543 0 299.9-243.1 543-543 543-299.9 0-543-243.1-543-543 0-299.9 243.1-543 543-543z"/>
+	<path id="Shape 1" class="s1" d="m541 971l-352-222 1-433 352 225z"/>
+	<path id="Shape 2" class="s2" d="m542 541l-352-225 352-223z"/>
+	<path id="Shape 3" class="s3" d="m542 541v-447l350 221z"/>
+	<path id="Shape 5" class="s4" d="m542 541l350-225v435z"/>
+	<path id="Shape 4" class="s5" d="m542 541v431l350-221z"/>
+	<text id="V" style="transform: matrix(1.703,0,0,1.703,97.016,283.469)" >
+		<tspan x="104.2" y="363.8" class="t6" dx="0 87" >V</tspan>
+	</text>
+</svg>
